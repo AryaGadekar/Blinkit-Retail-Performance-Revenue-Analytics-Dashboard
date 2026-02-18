@@ -15,4 +15,20 @@ The primary objectives of this analysis are to:
 - Highlight operational strengths and potential expansion opportunities  
 
 The outcome is an executive-focused dashboard that converts raw transactional data into actionable commercial insights.
+## Key Metrics Analyzed
+
+To evaluate Blinkit’s retail performance and revenue composition, the following business-critical metrics were analyzed:
+
+- **Total Sales ($)** – Overall revenue generated across outlets  
+- **Average Sales per Item (AOV Equivalent)** – Revenue efficiency per unit sold  
+- **Number of SKUs Sold** – Product volume and assortment breadth  
+- **Average Product Rating** – Customer satisfaction proxy indicator  
+- **Sales by Item Category** – Revenue contribution by product type  
+- **Sales by Outlet Type** – Performance comparison across supermarket formats  
+- **Sales by Outlet Size** – Revenue impact by store scale  
+- **Sales by Location Tier (Tier 1, 2, Tier 3)** – Geographic revenue distribution  
+- **Sales by Item Fat Content** – Product composition impact on revenue  
+- **Outlet Establishment Year Performance** – Maturity-based revenue analysis  
+
+These metrics collectively provide a structured view of revenue concentration, operational efficiency, and growth potential across Blinkit’s retail network.
 
