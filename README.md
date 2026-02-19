@@ -1,4 +1,6 @@
-**TL;DR:** Built a Power BI revenue dashboard for Blinkit. Key findings: Tier 3 and medium outlets drive most revenue; Fruits & Vegetables and Snack Foods are core revenue anchors; scaling should prioritize format optimization over blind footprint expansion.
+**TL;DR:** Built a Power BI revenue analytics dashboard using 8,523 item-level records to evaluate outlet efficiency, category concentration, and geographic performance.
+*Key findings*: Tier 3 markets and medium-format outlets drive the strongest revenue efficiency; Fruits & Vegetables and Snack Foods are structural revenue anchors; 2018 outlet cohorts show a replicable expansion playbook.
+*Recommendation*: Shift from expansion-led growth to format optimization and targeted Tier 3 scaling.
 
 # Blinkit Retail Performance & Revenue Analytics Dashboard
 End-to-end business intelligence case study analyzing retail revenue performance, outlet segmentation, product category contribution, and regional sales trends. Built an interactive Power BI dashboard to identify growth drivers, operational gaps, and data-driven expansion opportunities.
