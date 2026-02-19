@@ -135,9 +135,7 @@ Overall, the findings indicate that Blinkit’s growth strategy should shift fro
 
 ## 1. The 2018 Expansion Spike Discovery
 
-## Total Sales by Outlet Establishment Year
-
-![Total Sales by Establishment Year](images/sales_by_est_year.png)
+<img src="Images/sales_by_est_year.png" width="850">
 
 When analyzing revenue by outlet establishment year, the expectation was steady incremental growth as new outlets were added. Instead, the data revealed a concentrated performance spike.
 
@@ -167,9 +165,7 @@ Growth through expansion alone is no longer sufficient. Blinkit must shift from 
 
 ## 2. The Volume vs Basket Size Discovery
 
-## Average Order Value (AOV) by Establishment Year
-
-![AOV by Establishment Year](images/aov_by_est_year.png)
+<img src="Images/aov_by_est_year.png" width="850">
 
 Average sales per record remain tightly clustered around ~$140 across establishment years.
 
@@ -199,9 +195,7 @@ Blinkit should prioritize order frequency and customer acquisition over basket e
 
 ## 3. The Category Concentration Discovery
 
-## Top 10 Item Types by Total Sales
-
-![Top 10 Item Types](images/top10_item_types.png)
+<img src="Images/top10_item_types.png" width="850">
 
 Revenue is not evenly distributed across product categories.
 
@@ -236,9 +230,7 @@ Not all categories deserve equal inventory investment or promotional focus.
 
 ## 4. The Tier 3 Market Leadership Discovery
 
-## Sales by Outlet Location Tier
-
-![Sales by Tier](images/sales_by_tier.png)
+<img src="Images/sales_by_tier.png" width="850">
 
 Contrary to traditional retail assumptions:
 
@@ -266,9 +258,7 @@ Future expansion and marketing investment should prioritize high-performing Tier
 
 ## 5. The Medium Outlet Sweet Spot Discovery
 
-## Sales Share by Outlet Size
-
-![Sales by Size](images/sales_by_size.png)
+<img src="Images/sales_by_size.png" width="700">
 
 Sales share by outlet size reveals:
 
@@ -298,9 +288,7 @@ Blinkit’s most scalable format appears to be medium-sized outlets.
 
 ## 6. The Health Preference Signal Discovery
 
-## Sales by Item Fat Content
-
-![Sales by Fat Content](images/sales_by_fat.png)
+<img src="Images/sales_by_fat.png" width="850">
 
 Sales by item fat content show:
 
