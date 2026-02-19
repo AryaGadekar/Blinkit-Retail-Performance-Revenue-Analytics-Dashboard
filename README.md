@@ -135,7 +135,7 @@ Overall, the findings indicate that Blinkit’s growth strategy should shift fro
 
 ## 1. The 2018 Expansion Spike Discovery
 
-<img src="Images/sales_by_est_year.png" width="850">
+<img src="Images/sales_by_est_year.png" width="700">
 
 When analyzing revenue by outlet establishment year, the expectation was steady incremental growth as new outlets were added. Instead, the data revealed a concentrated performance spike.
 
@@ -165,7 +165,7 @@ Growth through expansion alone is no longer sufficient. Blinkit must shift from 
 
 ## 2. The Volume vs Basket Size Discovery
 
-<img src="Images/aov_by_est_year.png" width="850">
+<img src="Images/aov_by_est_year.png" width="700">
 
 Average sales per record remain tightly clustered around ~$140 across establishment years.
 
@@ -195,7 +195,7 @@ Blinkit should prioritize order frequency and customer acquisition over basket e
 
 ## 3. The Category Concentration Discovery
 
-<img src="Images/top10_item_types.png" width="850">
+<img src="Images/top10_item_types.png" width="700">
 
 Revenue is not evenly distributed across product categories.
 
@@ -230,7 +230,7 @@ Not all categories deserve equal inventory investment or promotional focus.
 
 ## 4. The Tier 3 Market Leadership Discovery
 
-<img src="Images/sales_by_tier.png" width="850">
+<img src="Images/sales_by_tier.png" width="700">
 
 Contrary to traditional retail assumptions:
 
@@ -288,7 +288,7 @@ Blinkit’s most scalable format appears to be medium-sized outlets.
 
 ## 6. The Health Preference Signal Discovery
 
-<img src="Images/sales_by_fat.png" width="850">
+<img src="Images/sales_by_fat.png" width="700">
 
 Sales by item fat content show:
 
