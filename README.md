@@ -1,5 +1,27 @@
+**TL;DR:** Built a Power BI revenue dashboard for Blinkit. Key findings: Tier 3 and medium outlets drive most revenue; Fruits & Vegetables and Snack Foods are core revenue anchors; scaling should prioritize format optimization over blind footprint expansion.
+
 # Blinkit Retail Performance & Revenue Analytics Dashboard
 End-to-end business intelligence case study analyzing retail revenue performance, outlet segmentation, product category contribution, and regional sales trends. Built an interactive Power BI dashboard to identify growth drivers, operational gaps, and data-driven expansion opportunities.
+
+## Table of Contents
+
+- [Project Background](#project-background)
+- [Key Metrics Analyzed](#key-metrics-analyzed)
+- [Executive Focus Areas](#executive-focus-areas)
+- [Data Structure & Initial Validation](#data-structure--initial-validation)
+- [Executive Summary](#executive-summary)
+- [Insights Deep Dive](#insights-deep-dive)
+  - [1. The 2018 Expansion Spike Discovery](#1-the-2018-expansion-spike-discovery)
+  - [2. The Volume vs Basket Size Discovery](#2-the-volume-vs-basket-size-discovery)
+  - [3. The Category Concentration Discovery](#3-the-category-concentration-discovery)
+  - [4. The Tier 3 Market Leadership Discovery](#4-the-tier-3-market-leadership-discovery)
+  - [5. The Medium Outlet Sweet Spot Discovery](#5-the-medium-outlet-sweet-spot-discovery)
+  - [6. The Health Preference Signal Discovery](#6-the-health-preference-signal-discovery)
+- [Cross-Project Synthesis: Strategic Takeaways](#cross-project-synthesis-strategic-takeaways)
+- [KPIs & Recommendations](#kpis--recommendations)
+- [Key Performance Indicators](#key-performance-indicators)
+- [Assumptions & Limitations](#assumptions--limitations)
+- [Next Steps](#next-steps)
 
 ## Project Background
 
@@ -46,7 +68,7 @@ Based on the metrics analyzed, insights and strategic recommendations are struct
 ## Data Structure & Initial Validation
 
 ### Data Source
-- **BlinkIT Grocery Data.xlsx**
+- **Blinkit Grocery Data.xlsx**
 - Item-level retail dataset
 - Total records: 8,523
 
@@ -135,7 +157,10 @@ Overall, the findings indicate that Blinkit’s growth strategy should shift fro
 
 ## 1. The 2018 Expansion Spike Discovery
 
-<img src="Images/sales_by_est_year.png" width="700">
+<img src="Images/sales_by_est_year.png" width="600">
+
+**Figure 1.** Total sales by outlet establishment year.  
+Outlets opened in 2018 show a clear revenue spike compared to other cohorts, after which revenue stabilizes.
 
 When analyzing revenue by outlet establishment year, the expectation was steady incremental growth as new outlets were added. Instead, the data revealed a concentrated performance spike.
 
@@ -165,7 +190,10 @@ Growth through expansion alone is no longer sufficient. Blinkit must shift from 
 
 ## 2. The Volume vs Basket Size Discovery
 
-<img src="Images/aov_by_est_year.png" width="700">
+<img src="Images/aov_by_est_year.png" width="600">
+
+**Figure 2.** Average sales per record (AOV proxy) by outlet establishment year.  
+Basket size remains stable across years, indicating revenue growth was driven by volume rather than pricing.
 
 Average sales per record remain tightly clustered around ~$140 across establishment years.
 
@@ -195,7 +223,10 @@ Blinkit should prioritize order frequency and customer acquisition over basket e
 
 ## 3. The Category Concentration Discovery
 
-<img src="Images/top10_item_types.png" width="700">
+<img src="Images/top10_item_types.png" width="600">
+
+**Figure 3.** Top 10 item categories by total revenue.  
+Fruits & Vegetables and Snack Foods dominate overall sales contribution.
 
 Revenue is not evenly distributed across product categories.
 
@@ -230,7 +261,10 @@ Not all categories deserve equal inventory investment or promotional focus.
 
 ## 4. The Tier 3 Market Leadership Discovery
 
-<img src="Images/sales_by_tier.png" width="700">
+<img src="Images/sales_by_tier.png" width="600">
+
+**Figure 4.** Total sales by outlet location tier.  
+Tier 3 markets generate the highest aggregate revenue.
 
 Contrary to traditional retail assumptions:
 
@@ -258,7 +292,10 @@ Future expansion and marketing investment should prioritize high-performing Tier
 
 ## 5. The Medium Outlet Sweet Spot Discovery
 
-<img src="Images/sales_by_size.png" width="700">
+<img src="Images/sales_by_size.png" width="600">
+
+**Figure 5.** Revenue contribution by outlet size.  
+Medium-sized outlets represent the highest share of total sales.
 
 Sales share by outlet size reveals:
 
@@ -288,7 +325,10 @@ Blinkit’s most scalable format appears to be medium-sized outlets.
 
 ## 6. The Health Preference Signal Discovery
 
-<img src="Images/sales_by_fat.png" width="700">
+<img src="Images/sales_by_fat.png" width="600">
+
+**Figure 6.** Sales distribution by item fat content.  
+Low-fat products significantly outperform regular-fat alternatives.
 
 Sales by item fat content show:
 
@@ -338,7 +378,7 @@ This marks the transition from early expansion to operational maturity.
 
 # KPIs & Recommendations
 
-Based on the insights and findings above, we would recommend Blinkit’s Operations and Growth Strategy teams focus on the following high-impact initiatives to transition from expansion-led growth to performance-driven optimization.
+Based on the insights and findings above, we would recommend that Blinkit’s Operations and Growth Strategy teams focus on the following high-impact initiatives to transition from expansion-led growth to performance-driven optimization.
 
 ---
 
