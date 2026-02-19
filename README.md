@@ -15,6 +15,7 @@ The primary objectives of this analysis are to:
 - Highlight operational strengths and potential expansion opportunities  
 
 The outcome is an executive-focused dashboard that converts raw transactional data into actionable commercial insights.
+
 ## Key Metrics Analyzed
 
 To evaluate Blinkit’s retail performance and revenue composition, the following business-critical metrics were analyzed:
@@ -134,6 +135,10 @@ Overall, the findings indicate that Blinkit’s growth strategy should shift fro
 
 ## 1. The 2018 Expansion Spike Discovery
 
+## Total Sales by Outlet Establishment Year
+
+![Total Sales by Establishment Year](images/sales_by_est_year.png)
+
 When analyzing revenue by outlet establishment year, the expectation was steady incremental growth as new outlets were added. Instead, the data revealed a concentrated performance spike.
 
 - **2018 outlets show the highest total sales contribution**
@@ -162,6 +167,10 @@ Growth through expansion alone is no longer sufficient. Blinkit must shift from 
 
 ## 2. The Volume vs Basket Size Discovery
 
+## Average Order Value (AOV) by Establishment Year
+
+![AOV by Establishment Year](images/aov_by_est_year.png)
+
 Average sales per record remain tightly clustered around ~$140 across establishment years.
 
 - No meaningful AOV spike in 2018
@@ -189,6 +198,10 @@ Blinkit should prioritize order frequency and customer acquisition over basket e
 ---
 
 ## 3. The Category Concentration Discovery
+
+## Top 10 Item Types by Total Sales
+
+![Top 10 Item Types](images/top10_item_types.png)
 
 Revenue is not evenly distributed across product categories.
 
@@ -223,6 +236,10 @@ Not all categories deserve equal inventory investment or promotional focus.
 
 ## 4. The Tier 3 Market Leadership Discovery
 
+## Sales by Outlet Location Tier
+
+![Sales by Tier](images/sales_by_tier.png)
+
 Contrary to traditional retail assumptions:
 
 - **Tier 3 outlets generate the highest total sales**
@@ -248,6 +265,10 @@ Future expansion and marketing investment should prioritize high-performing Tier
 ---
 
 ## 5. The Medium Outlet Sweet Spot Discovery
+
+## Sales Share by Outlet Size
+
+![Sales by Size](images/sales_by_size.png)
 
 Sales share by outlet size reveals:
 
@@ -276,6 +297,10 @@ Blinkit’s most scalable format appears to be medium-sized outlets.
 ---
 
 ## 6. The Health Preference Signal Discovery
+
+## Sales by Item Fat Content
+
+![Sales by Fat Content](images/sales_by_fat.png)
 
 Sales by item fat content show:
 
