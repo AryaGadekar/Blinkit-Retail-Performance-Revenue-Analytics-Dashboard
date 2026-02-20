@@ -5,8 +5,6 @@ Strategic direction: shift from expansion-led growth to outlet-level optimizatio
 
 # Blinkit Retail Performance & Revenue Analytics Dashboard
 
-# Blinkit Retail Performance & Revenue Analytics Dashboard
-
 ![Dashboard Overview](Images/Dashboard_Overview.png)
 
 Built in Power BI | 8,523 records | Revenue intelligence case study
