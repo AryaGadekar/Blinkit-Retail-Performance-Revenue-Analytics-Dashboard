@@ -1,17 +1,9 @@
-## TL;DR
-
-Built a Power BI revenue intelligence dashboard using 8,523 item-level retail records to evaluate outlet efficiency, category revenue concentration, and geographic performance.
-
-**Key Findings**
-- Tier 3 markets and medium-format outlets generate the strongest revenue returns.
-- Fruits & Vegetables and Snack Foods function as structural revenue anchors.
-- The 2018 outlet cohort reflects a high-performing expansion model.
-
-**Strategic Direction**
-Shift from expansion-led growth to outlet-level optimization, category prioritization, and focused Tier 3 scaling.
+**TL;DR:** Built a Power BI revenue intelligence dashboard using 8,523 item-level records to diagnose outlet efficiency, category concentration, and geographic performance.  
+Key findings: Tier 3 markets and medium-format outlets yield the strongest returns; Fruits & Vegetables and Snack Foods are core revenue anchors; the 2018 outlet cohort shows a repeatable expansion playbook.  
+Strategic direction: shift from expansion-led growth to outlet-level optimization, category prioritization, and focused Tier 3 scaling.
 
 
-# # Blinkit Retail Performance & Revenue Analytics Dashboard
+# Blinkit Retail Performance & Revenue Analytics Dashboard
 
 A strategic retail analytics case study built in Power BI using 8,523 item-level transaction records to evaluate revenue concentration, outlet efficiency, and geographic performance.
 
@@ -105,34 +97,13 @@ No material data quality issues were identified that would impact revenue segmen
 
 ## Executive Summary
 
-This analysis identifies three structural revenue drivers within Blinkit’s retail network: expansion cohort performance, category concentration, and outlet–tier efficiency.
+This analysis uncovers three structural revenue drivers for Blinkit:
 
-### 1. Expansion Cohort Performance
+- **Expansion cohort performance:** Outlets opened in 2018 show a distinct revenue spike. Newer cohorts stabilized rather than grew, which suggests earlier openings benefited from a high-efficiency rollout that is worth replicating.  
+- **Category concentration:** Fruits & Vegetables and Snack Foods drive the bulk of revenue; several categories (Breakfast, Seafood) deliver low returns and should be tested or rationalized.  
+- **Format and geography:** Tier 3 markets and medium-format outlets deliver the strongest revenue efficiency. Metro-first expansion is not always optimal.
 
-Outlets established in 2018 demonstrate a clear revenue spike relative to other cohorts. Subsequent establishment years show stabilization rather than continued acceleration. 
-
-This indicates that earlier expansion benefited from a particularly efficient rollout model, while recent growth has not replicated that uplift. The implication is clear: future gains are unlikely to come from footprint expansion alone. Performance optimization per outlet must become the primary growth lever.
-
----
-
-### 2. Category Revenue Concentration
-
-Revenue is disproportionately concentrated in a small number of categories, led by Fruits & Vegetables and Snack Foods. These categories act as structural revenue anchors, consistently driving the majority of sales contribution.
-
-In contrast, categories such as Breakfast and Seafood contribute marginal share, suggesting long-tail inventory that may require experimentation, bundling, or rationalization.
-
-The business is therefore not evenly diversified across product categories. Protecting and scaling core categories while testing secondary segments becomes essential for stable growth.
-
----
-
-### 3. Geographic and Format Efficiency
-
-Tier 3 outlets generate the highest aggregate revenue, outperforming Tier 1 and Tier 2 markets. At the same time, medium-sized outlets contribute the strongest revenue share relative to footprint, and Supermarket Type1 formats dominate overall performance.
-
-This challenges conventional metro-first assumptions and highlights a replicable efficiency model: medium-format stores operating in Tier 3 markets.
-
-The data indicates that Blinkit’s next growth phase should prioritize outlet-level productivity, category protection, and targeted Tier 3 expansion rather than aggressive footprint scaling.
-
+Bottom line: prioritize outlet-level productivity, protect core categories, and scale medium-format outlets in high-performing Tier 3 clusters.
 ---
 
 # Insights Deep Dive
@@ -141,7 +112,8 @@ The data indicates that Blinkit’s next growth phase should prioritize outlet-l
 
 ![Total sales by outlet establishment year](Images/sales_by_est_year.png)
 
-**Figure 1.** Total sales by outlet establishment year.
+**Figure 1.** Total sales by outlet establishment year.  
+Outlets opened in 2018 demonstrate a clear revenue spike, after which cohort performance stabilizes.
 
 Revenue by establishment cohort reveals a pronounced spike for outlets opened in 2018. Subsequent cohorts stabilize within a narrow revenue band, and earlier cohorts do not replicate this uplift.
 
@@ -171,7 +143,8 @@ Blinkit’s next phase cannot rely on store count growth. It must focus on outle
 
 ![Average sales per record by outlet establishment year](Images/aov_by_est_year.png)
 
-**Figure 2.** Average sales per record (AOV proxy) by establishment year.
+**Figure 2.** Average sales per record (AOV proxy) by establishment year.  
+Basket size remains stable across cohorts, indicating that revenue growth in 2018 was volume-driven rather than pricing-driven.
 
 Average sales per record remain consistently clustered around ~$140 across all cohorts. No meaningful spike accompanies the 2018 revenue jump.
 
@@ -229,9 +202,8 @@ Revenue stability depends on protecting high-frequency anchors while managing lo
 
 ![Total sales by outlet location tier](Images/sales_by_tier.png)
 
-**Figure 4.** Total revenue by outlet location tier.
-
-Tier 3 outlets generate the highest aggregate sales, outperforming Tier 2 and Tier 1 markets.
+**Figure 4.** Total revenue by outlet location tier.  
+Tier 3 markets generate the highest aggregate revenue, outperforming Tier 1 and Tier 2 locations.
 
 This contradicts the traditional assumption that metropolitan markets drive retail dominance.
 
@@ -253,11 +225,12 @@ Blinkit’s growth model favors underserved markets rather than saturated metros
 
 ![Revenue contribution by outlet size](Images/sales_by_size.png)
 
-**Figure 5.** Revenue share by outlet size.
+**Figure 5.** Revenue share by outlet size.  
+Medium-sized outlets deliver the strongest revenue performance relative to footprint.
 
 Medium-sized outlets contribute the highest revenue share (~42%), outperforming both small and large formats.
 
-Large outlets do not demonstrate proportional revenue advantage relative to operational footprint.
+Large outlets do not demonstrate a proportional revenue advantage relative to operational footprint.
 
 This suggests an optimal scale threshold.
 
@@ -277,7 +250,8 @@ Medium format represents Blinkit’s most capital-efficient store model.
 
 ![Sales distribution by item fat content](Images/sales_by_fat.png)
 
-**Figure 6.** Revenue by item fat content.
+**Figure 6.** Revenue distribution by item fat content.  
+Low-fat items significantly outperform regular-fat alternatives, indicating a strong health preference signal.
 
 Low-fat items significantly outperform regular-fat alternatives, indicating a measurable consumer health preference within the dataset.
 
@@ -393,22 +367,6 @@ Enhancing data instrumentation is critical for long-term operational maturity.
 
 **Success Target:**  
 Establish baseline retention metrics within one quarter of data instrumentation deployment.
-
----
-
-# Strategic Transition Summary
-
-This analysis suggests that Blinkit’s next phase of growth should emphasize operational optimization over rapid footprint expansion.
-
-The data indicates:
-
-- Revenue efficiency outweighs format size
-- Tier 3 markets outperform assumed metro dominance
-- Category protection is more impactful than assortment expansion
-
-The strategic pivot is clear:
-
-**Optimize before expanding.**
 
 ---
 
