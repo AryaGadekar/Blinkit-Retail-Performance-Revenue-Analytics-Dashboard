@@ -16,7 +16,7 @@ The result is an executive-ready dashboard that translates raw retail data into 
 - [Project Background](#project-background)
 - [Key Metrics Analyzed](#key-metrics-analyzed)
 - [Analytical Focus Areas](#analytical-focus-areas)
-- [Data Structure & Validation](#data-structure--validation)
+- [Data Overview & Validation](#data-overview--validation)
 - [Executive Summary](#executive-summary)
 - [Insights Deep Dive](#insights-deep-dive)
   - [1. The 2018 Expansion Efficiency Spike](#1-the-2018-expansion-efficiency-spike)
@@ -89,86 +89,36 @@ Insights and recommendations were structured around five strategic performance d
 
 ---
 
-## Data Structure & Validation
+## Data Overview & Validation
 
-### Data Source
+**Source:** Blinkit Grocery Data.xlsx  
+**Dataset Size:** 8,523 item-level retail records  
 
-- **Blinkit Grocery Data.xlsx**
-- Item-level retail sales dataset
-- Total Records: 8,523
+The dataset consists of a single denormalized transactional table containing both product attributes and outlet attributes. Each row represents item-level sales with associated store, category, and geographic information.
 
----
+### Core Fields Used in Analysis
 
-### Dataset Architecture
-
-The dataset is a single denormalized transactional table containing both item-level and outlet-level attributes within each record.
-
-This structure supports efficient aggregation and segmentation analysis. However, it limits deeper modeling capabilities such as customer-level cohort analysis and true time-series evaluation.
-
-**Core Fields**
-
-**Item Dimensions**
-- `Item Identifier` – Unique SKU ID  
 - `Item Type` – Product category  
-- `Item Fat Content` – Nutritional segmentation  
-- `Item Visibility` – Shelf exposure proxy  
-- `Item Weight` – Physical attribute  
-
-**Outlet Dimensions**
-- `Outlet Identifier` – Store-level unique ID  
-- `Outlet Type` – Format classification (Grocery / Supermarket Type1–3)  
-- `Outlet Size` – Small / Medium / High  
-- `Outlet Location Type` – Tier 1 / Tier 2 / Tier 3  
-- `Outlet Establishment Year` – Expansion cohort reference  
-
-**Performance Measures**
+- `Outlet Type` and `Outlet Size` – Store format classification  
+- `Outlet Location Type` – Tier 1 / Tier 2 / Tier 3 segmentation  
+- `Outlet Establishment Year` – Cohort reference  
 - `Sales` – Revenue per record  
-- `Rating` – Customer satisfaction proxy  
+- `Rating` – Customer feedback proxy  
 
----
+### Data Validation
 
-### Conceptual Data Model (Enterprise Architecture View)
+Before building the dashboard, the dataset was reviewed to ensure:
 
-In a production analytics environment, the dataset would ideally be normalized into three entities:
+- No missing values in revenue or key segmentation fields  
+- Consistent labeling across outlet and category dimensions  
+- Reliable aggregation for revenue calculations  
 
-**Items Dimension**
-- item_id  
-- item_type  
-- fat_content  
-- weight  
-- visibility  
+**Key Summary Metrics**
 
-**Outlets Dimension**
-- outlet_id  
-- outlet_type  
-- outlet_size  
-- location_tier  
-- establishment_year  
-
-**Sales Fact Table**
-- sale_id  
-- item_id  
-- outlet_id  
-- transaction_date  
-- sales_amount  
-- rating  
-
-The current structure behaves as a flattened fact table with embedded dimension attributes. While sufficient for revenue segmentation and operational diagnostics, it constrains longitudinal analysis and advanced behavioral modeling.
-
----
-
-### Initial Data Validation
-
-Prior to analysis, structural and numerical checks were conducted to ensure reliability:
-
-- Total Records: **8,523**
-- Total Revenue: **$1,201,681.49**
+- Total Revenue: **$1,201,681.49**  
 - Average Sales per Record: **$140.99**
-- No null values in primary segmentation or revenue fields
-- Minor null values present in `Item Weight` (non-impacting for aggregation)
-- Category and outlet labels reviewed for consistency and grouping suitability
 
-The dataset was validated as structurally consistent and analytically reliable for revenue and performance segmentation.
+No material data quality issues were identified that would impact revenue segmentation or performance analysis.
 
 ---
 
