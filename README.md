@@ -5,6 +5,12 @@ Strategic direction: shift from expansion-led growth to outlet-level optimizatio
 
 # Blinkit Retail Performance & Revenue Analytics Dashboard
 
+# Blinkit Retail Performance & Revenue Analytics Dashboard
+
+![Dashboard Overview](Images/Dashboard_Overview.png)
+
+Built in Power BI | 8,523 records | Revenue intelligence case study
+
 A strategic retail analytics case study built in Power BI using 8,523 item-level transaction records to evaluate revenue concentration, outlet efficiency, and geographic performance.
 
 This project analyzes how sales are distributed across outlet formats, city tiers, and product categories to uncover structural growth drivers and operational gaps. The objective is not only to report performance, but to diagnose where capital, inventory, and expansion strategy should be prioritized.
