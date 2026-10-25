@@ -110,6 +110,7 @@ This analysis uncovers three structural revenue drivers for Blinkit:
 - **Format and geography:** Tier 3 markets and medium-format outlets deliver the strongest revenue efficiency. Metro-first expansion is not always optimal.
 
 Bottom line: prioritize outlet-level productivity, protect core categories, and scale medium-format outlets in high-performing Tier 3 clusters.
+
 ---
 
 # Insights Deep Dive
