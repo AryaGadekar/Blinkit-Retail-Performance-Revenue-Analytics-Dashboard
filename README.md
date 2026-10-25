@@ -109,7 +109,7 @@ This analysis uncovers three structural revenue drivers for Blinkit:
 - **Category concentration:** Fruits & Vegetables and Snack Foods drive the bulk of revenue; several categories (Breakfast, Seafood) deliver low returns and should be tested or rationalized.  
 - **Format and geography:** Tier 3 markets and medium-format outlets deliver the strongest revenue efficiency. Metro-first expansion is not always optimal.
 
-Bottom line: prioritize outlet-level productivity, protect core categories, and scale medium-format outlets in high-performing Tier 3 clusters.
+**Bottom line:** prioritize outlet-level productivity, protect core categories, and scale medium-format outlets in high-performing Tier 3 clusters.
 
 ---
 
